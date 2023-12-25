@@ -8,6 +8,10 @@
         darkPurple: "#1a0d1e",
       },
     },
+    screens: {
+      sm: "500px",
+      tablet: "768px",
+    },
   },
   plugins: [],
 };

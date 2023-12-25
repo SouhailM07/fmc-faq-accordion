@@ -1,8 +1,7 @@
 html {
   font-size: 13.5px;
-  font-family: "Work Sans" !important;
 }
-
 * {
   transition: 0.3s;
+  font-family: "Work Sans" !important;
 }
