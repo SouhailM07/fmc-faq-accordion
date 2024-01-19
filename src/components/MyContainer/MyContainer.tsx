@@ -14,7 +14,7 @@ export default function MyContainer() {
     label: string;
     txt: string;
   }
-  let [selectedFaq, setSelectedFaq] = useState<number>();
+  let [selectedFaq, setSelectedFaq] = useState<number>(0);
   let arrOfFaqs: arrOfFaqs_type[] = [
     {
       label: "What is Frontend Mentor, and how will it help me?",
