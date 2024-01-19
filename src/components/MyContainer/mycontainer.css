@@ -1,5 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer components {
+
+body {
+  @apply bg-lightPink;
+}
+
+ul li:nth-child(4) div {
+  @apply border-none;
 }

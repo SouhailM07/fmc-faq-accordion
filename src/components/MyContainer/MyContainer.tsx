@@ -4,7 +4,7 @@ import { useState } from "react";
 // components
 import { Faq } from "../../components";
 // mui
-import { Container, Card, CardHeader, CardContent } from "@mui/material";
+import { Card, CardHeader, CardContent } from "@mui/material";
 
 // assets
 import star_logo from "/icon-star.svg";
@@ -35,11 +35,8 @@ export default function MyContainer() {
   ];
   return (
     <>
-      <Container
-        className="bg-[length:100%] bg-no-repeat bg-top bg-[url('/background-pattern-mobile.svg')] tablet:bg-[url('/background-pattern-desktop.svg')] border-2 border-black h-screen !flex items-center justify-center"
-        maxWidth="xl"
-      >
-        <Card className="w-[92%] sm:w-[38rem] px-[2rem] !rounded-2xl pt-[2rem]">
+      <main className="bg-[length:100%] bg-no-repeat bg-top bg-[url('/background-pattern-mobile.svg')] tablet:bg-[url('/background-pattern-desktop.svg')] border-2 border-black h-screen !flex items-center justify-center">
+        <Card className="!shadow-xl w-[92%] sm:w-[38rem] px-[2rem] !rounded-2xl pt-[2rem]">
           <CardHeader
             title={
               <div className="flex space-x-[1rem] sm:space-x-[2rem]">
@@ -69,7 +66,7 @@ export default function MyContainer() {
             })}
           </CardContent>
         </Card>
-      </Container>
+      </main>
     </>
   );
 }

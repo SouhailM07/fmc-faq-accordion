@@ -26,7 +26,9 @@ export default function Faq({
           onClick={() => setToggle(!toggle)}
           className="flex justify-between"
         >
-          <p className="font-bold hover:text-violet-600">{label}</p>
+          <p className="font-bold hover:text-violet-600 text-[1.1rem]">
+            {label}
+          </p>
           <img src={turn == sFaq ? minus_logo : plus_logo} alt="logo" />
         </Box>
         <Collapse in={turn == sFaq}>
