@@ -21,7 +21,7 @@ export default function Faq({
   let [toggle, setToggle] = useState<boolean>(false);
   return (
     <>
-      <Box className="border-b-[0.5px] border-gray-300 my-[1rem] py-[0.5rem] cursor-pointer">
+      <Box className=" my-[1rem] py-[0.5rem] cursor-pointer">
         <Box
           onClick={() => setToggle(!toggle)}
           className="flex justify-between"

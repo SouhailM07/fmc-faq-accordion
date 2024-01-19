@@ -6,6 +6,6 @@ body {
   @apply bg-lightPink;
 }
 
-ul li:nth-child(4) div {
-  @apply border-none;
+ul li:not(li:nth-child(4)) > div {
+  @apply border-gray-300 border-b-[0.5px];
 }
